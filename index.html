@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 
@@ -95,7 +96,6 @@
             <g>
             </g>
           </svg>
-
         </div>
         <nav class="header__menu">
           <ul class="header__list-menu">
@@ -200,7 +200,7 @@
       <div class="container">
         <div class="bgraund__inner">
           <div class="row">
-            <div class="col-4">
+            <div class="col-md-12 col-lg-3 col-12">
               <div class="bgraund__inner-left">
                 <div class="bgraund__logo">
                   <img src="images/main/logo_main.svg" alt="">
@@ -217,7 +217,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-8">
+            <div class="col-md-12 col-lg-9 col-12">
               <div class="bgraund__inner-right">
                 <div class="swiper mySwiper">
                   <div class="swiper-wrapper">
@@ -239,8 +239,14 @@
                             <p>Pellentesque maximus enim sit amet porta commodo. Curabitur viverra, risus sit amet
                               auctor
                               fringilla, elit lorem porta est, eget ultricies diam nulla quis risus. Pellentesque at
-                              tellus sem. Nam</p>
+                              tellus sem. Nam
+                              ellentesque maximus enim sit amet porta commodo. Curabitur viverra, risus sit amet
+                              auctor
+                              fringilla, elit lorem porta est, eget ultricies diam nulla quis risus. Pellentesque at
+                              tellus sem. Nam
+                            </p>
                           </div>
+                          <div class="swiper__info-btn"></div>
                         </div>
                       </div>
                     </div>
@@ -248,7 +254,7 @@
                       <div class="swiper__inner">
                         <div class="swiper__item">
                           <div class="swiper__logo">
-                            <img src="images/main/swiper__logo.png" alt="">
+                            <img src="images/main/swiper__logo-2.svg" alt="">
                           </div>
                           <div class="swiper__link">
                             <a href="#">Перейти на проект</a>
@@ -256,14 +262,19 @@
                         </div>
                         <div class="swiper__info">
                           <div class="swiper__info-title">
-                            <p>Иванов Иван</p>
+                            <p>ТОВ “Альянс Маркет”</p>
                           </div>
                           <div class="swiper__info-text">
-                            <p>Pellentesque maximus enim sit amet porta commodo. Curabitur viverra, risus sit amet
-                              auctor
-                              fringilla, elit lorem porta est, eget ultricies diam nulla quis risus. Pellentesque at
-                              tellus sem. Nam</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur condimentum
+                              feugiat. Fusce justo nisi, pharetra et erat eu, ultricies sagittis ligula. Ut vel leo
+                              ultricies, consectetur lacus vitae, eleifend tortor. Mauris eget finibus massa. Vivamus
+                              odio mi, hendrerit id turpis eget, venenatis sagittis elit. Aliquam sed ultricies ipsum,
+                              consequat convallis orci. Fusce lacinia euismod metus, ut suscipit nunc condimentum sit
+                              amet. Vestibulum accumsan mi ac metus ultrices bibendum. In a est ultricies, maximus magna
+                              id, posuere lectus. Praesent ut eros eu nisl ultricies condimentum. Fusce lacinia euismod
+                              metus, ut suscipit nunc condimentum sit </p>
                           </div>
+                          <div class="swiper__info-btn"></div>
                         </div>
                       </div>
                     </div>
@@ -271,7 +282,7 @@
                       <div class="swiper__inner">
                         <div class="swiper__item">
                           <div class="swiper__logo">
-                            <img src="images/main/swiper__logo.png" alt="">
+                            <img src="images/main/swiper__logo-3.png" alt="">
                           </div>
                           <div class="swiper__link">
                             <a href="#">Перейти на проект</a>
@@ -279,14 +290,16 @@
                         </div>
                         <div class="swiper__info">
                           <div class="swiper__info-title">
-                            <p>Иванов Иван</p>
+                            <p>Екатерина Дяченко</p>
                           </div>
                           <div class="swiper__info-text">
-                            <p>Pellentesque maximus enim sit amet porta commodo. Curabitur viverra, risus sit amet
-                              auctor
-                              fringilla, elit lorem porta est, eget ultricies diam nulla quis risus. Pellentesque at
-                              tellus sem. Nam</p>
+                            <p>Nulla tempus ante tortor, placerat placerat arcu vestibulum iaculis. In urna libero,
+                              blandit sed suscipit a, interdum eget enim. Integer tempor suscipit tincidunt. Quisque
+                              massa quam, mollis non pretium et, tempor a ipsum. Vivamus vitae mollis nulla. Nulla
+                              facilisi. In gravida sodales vehicula. Nunc diam tortor, sollicitudin at scelerisque
+                              vitae, pellentesque sed erat.</p>
                           </div>
+                          <div class="swiper__info-btn"></div>
                         </div>
                       </div>
                     </div>
@@ -307,85 +320,205 @@
           <h2>Продукты</h2>
         </div>
         <div class="products__fillter">
-          <select name="primanum" id="filter__primanum">\
-            <option>Область приминения</option>
-            <option>Пункт 2</option>
-          </select>
-          <select name="primanum" id="filter__primanum">\
-            <option>Тип</option>
-            <option>Пункт 2</option>
-          </select>
+          <div class="products__fillter-item">
+            <div class="products__fillter-title fillter__left">
+              <p>Галузь застосування</p>
+            </div>
+            <div class="products__fillter-text fillter__left-text">
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Food Retail</p>
+                </label>
+              </div>
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Fashion Retail</p>
+                </label>
+              </div>
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Offices</p>
+                </label>
+              </div>
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Drogerie</p>
+                </label>
+              </div>
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Logistics</p>
+                </label>
+              </div>
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Гипермаркеты</p>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="products__fillter-item">
+            <div class="products__fillter-title fillter__right">
+              <p>Тип</p>
+            </div>
+            <div class="products__fillter-text fillter__right-text">
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Встроенные светильники</p>
+                </label>
+              </div>
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Линейные светильники</p>
+                </label>
+              </div>
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Наружные светильники</p>
+                </label>
+              </div>
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Подвесные светильники</p>
+                </label>
+              </div>
+              <div class="products__fillter-checkbox">
+                <input class="fillter__checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label class="fillter__lable" for="vehicle1">
+                  <p>Трековые системы</p>
+                </label>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="products__inner">
           <div class="row">
-            <div class="col-xl-3 col-md-6 col-12">
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
               <div class="products__item">
                 <img src="images/main/products.png" alt="">
                 <button>Jazz</button>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-12">
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
               <div class="products__item">
                 <img src="images/main/products.png" alt="">
+                <button>Jazz XL</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item">
+                <img src="images/main/products_1.png" alt="">
+                <button>Gefest L</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item">
+                <img src="images/main/products_2.png" alt="">
+                <button>Gefest</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item">
+                <img src="images/main/products_1.png" alt="">
+                <button>Cube</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item">
+                <img src="images/main/products_3.png" alt="">
+                <button>Tor</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item">
+                <img src="images/main/products_4.png" alt="">
+                <button>Duo</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item">
+                <img src="images/main/products_5.png" alt="">
+                <button>Molo</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item">
+                <img src="images/main/products_6.png" alt="">
+                <button>Komo</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item">
+                <img src="images/main/products_7.png" alt="">
+                <button>Queert 3R</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item">
+                <img src="images/main/products_8.png" alt="">
+                <button>Alba</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item">
+                <img src="images/main/products_9.png" alt="">
+                <button>Baseline</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item products__none">
+                <img src="images/main/products_8.png" alt="">
                 <button>Jazz</button>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-12">
-              <div class="products__item">
-                <img src="images/main/products.png" alt="">
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item products__none">
+                <img src="images/main/products_4.png" alt="">
+                <button>Baseline</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item products__none">
+                <img src="images/main/products_2.png" alt="">
                 <button>Jazz</button>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-12">
-              <div class="products__item">
-                <img src="images/main/products.png" alt="">
-                <button>Jazz</button>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item products__none">
+                <img src="images/main/products_1.png" alt="">
+                <button>Tor</button>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-12">
-              <div class="products__item">
-                <img src="images/main/products.png" alt="">
-                <button>Jazz</button>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item products__none">
+                <img src="images/main/products_5.png" alt="">
+                <button>Gefest L</button>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-12">
-              <div class="products__item">
-                <img src="images/main/products.png" alt="">
-                <button>Jazz</button>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item products__none">
+                <img src="images/main/products_6.png" alt="">
+                <button>Gefest</button>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-12">
-              <div class="products__item">
-                <img src="images/main/products.png" alt="">
-                <button>Jazz</button>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item products__none">
+                <img src="images/main/products_9.png" alt="">
+                <button>Jazz XL</button>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-12">
-              <div class="products__item">
-                <img src="images/main/products.png" alt="">
-                <button>Jazz</button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-12">
-              <div class="products__item">
-                <img src="images/main/products.png" alt="">
-                <button>Jazz</button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-12">
-              <div class="products__item">
-                <img src="images/main/products.png" alt="">
-                <button>Jazz</button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-12">
-              <div class="products__item">
-                <img src="images/main/products.png" alt="">
-                <button>Jazz</button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-12">
-              <div class="products__item">
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+              <div class="products__item products__none">
                 <img src="images/main/products.png" alt="">
                 <button>Jazz</button>
               </div>
@@ -402,14 +535,28 @@
         </div>
         <div class="contact__inner">
           <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-xl-4">
               <div class="contact__item">
-                <select name="primanum" id="filter__primanum">\
-                  <option>УКРАИНА</option>
-                  <option>Пункт 2</option>
-                </select>
+                <div class="contact__fillter-item">
+                  <div class="contact__fillter-title">
+                    <select id="myselect1">
+                      <option class="option" value="0">
+                        <p>УКРАИНА</p>
+                      </option>
+                      <option class="option" value="1">
+                        <p>ПОЛЬША</p>
+                      </option>
+                      <option class="option" value="2">
+                        <p>БЕЛАРУСЬ</p>
+                      </option>
+                      <option class="option" value="3">
+                        <p>ГЕРМАНИЯ</p>
+                      </option>
+                    </select>
+                  </div>
+                </div>
                 <div class="contact__info">
-                  <div class="contact__info-item">
+                  <div class="contact__info-item loc1">
                     <div class="contact__info-title">
                       <p>Адрес:</p>
                       <span>1</span>
@@ -431,7 +578,7 @@
                       <a href="#">info@ava-tech.com.ua</a>
                     </div>
                   </div>
-                  <div class="contact__info-item">
+                  <div class="contact__info-item loc2">
                     <div class="contact__info-title">
                       <p>Адрес:</p>
                       <span>2</span>
@@ -453,7 +600,7 @@
                       <a href="#">info@ava-tech.com.ua</a>
                     </div>
                   </div>
-                  <div class="contact__info-item">
+                  <div class="contact__info-item loc3">
                     <div class="contact__info-title">
                       <p>Адрес:</p>
                       <span>3</span>
@@ -478,7 +625,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-xl-8">
               <div class="mapwrap">
                 <div id="map"></div>
               </div>
@@ -499,193 +646,198 @@
               <div class="footer__logo">
                 <a href="#"><img src="images/footer__logo.svg" alt="" class="footer__logo-img"></a>
               </div>
-              <div class="footer__copyright">
-                <a href="#" class="footer__copyright-text">Copyright Ava Tech 2021</a>
-              </div>
-              <div class="footer__policy">
-                <a href="#" class="footer__policy-text">Политика конфиденциальности</a>
-              </div>
             </div>
           </div>
           <div class="col-xl-2 col-sm-6 col-lg-3">
             <div class="footer__item">
               <nav class="footer__menu">
                 <ul class="footer__list">
-                  <li class="footer__menu-item"><a href="#" class="footer__link">Главная</a></li>
-                  <li class="footer__menu-item"><a href="#" class="footer__link">О нас</a></li>
-                  <li class="footer__menu-item"><a href="#" class="footer__link">Проекты</a></li>
-                  <li class="footer__menu-item"><a href="#" class="footer__link">Продукты</a></li>
+                  <li class="footer__menu-item"><a href="#" class="footer__link">О компании</a></li>
                   <li class="footer__menu-item"><a href="#" class="footer__link">Решения</a></li>
-                  <li class="footer__menu-item"><a href="#" class="footer__link">Блог</a></li>
+                  <li class="footer__menu-item"><a href="#" class="footer__link">Продукты</a></li>
                   <li class="footer__menu-item"><a href="#" class="footer__link">Контакты</a></li>
-                  <li class="footer__menu-item"><a href="#" class="footer__link">Сертификаты</a></li>
-                  <li class="footer__menu-item"><a href="#" class="footer__link">Карта сайта</a></li>
-                  <li class="footer__menu-item"><a href="#" class="footer__link">Производство</a></li>
-                  <li class="footer__menu-item"><a href="#" class="footer__link">Сервис</a></li>
                 </ul>
               </nav>
             </div>
           </div>
-          <div class="col-xl-3  col-sm-6 col-lg-3">
-            <div class="footer__item">
-              <div class="footer__giografi">
-                <div class="footer__giografi-item ua">
-                  <div href="#" class="footer__giografi-link">УКРАИНА
-                    <svg width="39" height="8" viewBox="0 0 39 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M38.3536 4.35355C38.5488 4.15829 38.5488 3.84171 38.3536 3.64645L35.1716 0.464466C34.9763 0.269204 34.6597 0.269204 34.4645 0.464466C34.2692 0.659728 34.2692 0.976311 34.4645 1.17157L37.2929 4L34.4645 6.82843C34.2692 7.02369 34.2692 7.34027 34.4645 7.53553C34.6597 7.7308 34.9763 7.7308 35.1716 7.53553L38.3536 4.35355ZM0 4.5L38 4.5V3.5L0 3.5L0 4.5Z"
-                        fill="white" />
-                    </svg>
+          <div class="col-xl-6  col-sm-6 col-lg-3">
+            <div class="footer__inner-georgafi">
+              <div class="footer__item">
+                <div class="footer__giografi">
+                  <div class="footer__item-dropdown">
+                    <div class="footer__giografi-item dropdown__item">
+                      <div class="footer__giografi-link">УКРАИНА
+                        <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L12 11L23 1" stroke="white" stroke-opacity="0.7" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="footer__item-dropdown__content">
+                      <div class="footer__giografi-item ua">
+                        <div href="#" class="footer__giografi-link">УКРАИНА
+                        </div>
+                      </div>
+                      <div class="footer__giografi-item gr">
+                        <div href="#" class="footer__giografi-link">ГЕРМАНИЯ
+                        </div>
+                      </div>
+                      <div class="footer__giografi-item bl">
+                        <div href="#" class="footer__giografi-link">БЕЛОРУСЬ
+                        </div>
+                      </div>
+                      <div class="footer__giografi-item pl">
+                        <div href="#" class="footer__giografi-link">ПОЛЬША
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="footer__giografi-item gr">
-                  <div href="#" class="footer__giografi-link">ГЕРМАНИЯ
-                    <svg width="39" height="8" viewBox="0 0 39 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M38.3536 4.35355C38.5488 4.15829 38.5488 3.84171 38.3536 3.64645L35.1716 0.464466C34.9763 0.269204 34.6597 0.269204 34.4645 0.464466C34.2692 0.659728 34.2692 0.976311 34.4645 1.17157L37.2929 4L34.4645 6.82843C34.2692 7.02369 34.2692 7.34027 34.4645 7.53553C34.6597 7.7308 34.9763 7.7308 35.1716 7.53553L38.3536 4.35355ZM0 4.5L38 4.5V3.5L0 3.5L0 4.5Z"
-                        fill="white" />
-                    </svg>
+              </div>
+              <div class="footer__item-geigrafi">
+                <div class="footer__item countryitem ukraina__item">
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Адрес: <span>1</span></p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="#" class="footer__email-text">вул. Вацлава Гавела 4,
+                        Киев, Украина, 02000</a>
+                    </div>
+                  </div>
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Номер телефона:</p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="tel:380443511999" class="footer__email-text">+38 (044) 351 19 99</a>
+                    </div>
+                  </div>
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Почта:</p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="mailto:info@ava-tech.com.ua" class="footer__email-text">info@ava-tech.com.ua</a>
+                    </div>
                   </div>
                 </div>
-                <div class="footer__giografi-item bl">
-                  <div href="#" class="footer__giografi-link">БЕЛОРУСЬ
-                    <svg width="39" height="8" viewBox="0 0 39 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M38.3536 4.35355C38.5488 4.15829 38.5488 3.84171 38.3536 3.64645L35.1716 0.464466C34.9763 0.269204 34.6597 0.269204 34.4645 0.464466C34.2692 0.659728 34.2692 0.976311 34.4645 1.17157L37.2929 4L34.4645 6.82843C34.2692 7.02369 34.2692 7.34027 34.4645 7.53553C34.6597 7.7308 34.9763 7.7308 35.1716 7.53553L38.3536 4.35355ZM0 4.5L38 4.5V3.5L0 3.5L0 4.5Z"
-                        fill="white" />
-                    </svg>
+                <div class="footer__item countryitem ukraina__item">
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Адрес: <span>2</span></p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="#" class="footer__email-text">ул. Зеленая 134,
+                        Днепр, Украина, 06500</a>
+                    </div>
+                  </div>
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Номер телефона:</p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="tel:380443511999" class="footer__email-text">+38 (044) 351 19 99</a>
+                    </div>
+                  </div>
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Почта:</p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="mailto:info@ava-tech.com.ua" class="footer__email-text">info@ava-tech.com.ua</a>
+                    </div>
                   </div>
                 </div>
-                <div class="footer__giografi-item pl">
-                  <div href="#" class="footer__giografi-link">ПОЛЬША
-                    <svg width="39" height="8" viewBox="0 0 39 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M38.3536 4.35355C38.5488 4.15829 38.5488 3.84171 38.3536 3.64645L35.1716 0.464466C34.9763 0.269204 34.6597 0.269204 34.4645 0.464466C34.2692 0.659728 34.2692 0.976311 34.4645 1.17157L37.2929 4L34.4645 6.82843C34.2692 7.02369 34.2692 7.34027 34.4645 7.53553C34.6597 7.7308 34.9763 7.7308 35.1716 7.53553L38.3536 4.35355ZM0 4.5L38 4.5V3.5L0 3.5L0 4.5Z"
-                        fill="white" />
-                    </svg>
+                <div class="footer__item countryitem germania__item">
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Адрес: <span>1</span></p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="#" class="footer__email-text">Sophie-Christ. Str 4
+                        Mainz 55127</a>
+                    </div>
+                  </div>
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Номер телефона:</p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="tel:380443511999" class="footer__email-text">+49 69 202 83 78</a> <br>
+                      <a href="tel:380673864474" class="footer__email-text">+49 69 202 83 80</a>
+                    </div>
+                  </div>
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Почта:</p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="mailto:info@ava-tech.com.ua" class="footer__email-text">info@ava-tech.com.ua</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__item countryitem belarus__item">
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Адрес: <span>1</span></p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="#" class="footer__email-text">вул. Вацлава Гавела 4,
+                        Киев, Белорусь, 02000</a>
+                    </div>
+                  </div>
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Номер телефона:</p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="tel:380443511999" class="footer__email-text">+38 (044) 351 19
+                        99</a> <br>
+                      <a href="tel:380673864474" class="footer__email-text">+38 (067) 386 44 74</a>
+                    </div>
+                  </div>
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Почта:</p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="mailto:info@ava-tech.com.ua" class="footer__email-text">info@ava-tech.com.ua</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__item countryitem pol__item">
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Адрес: <span>1</span></p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="#" class="footer__email-text">вул. Вацлава Гавела 4,
+                        Киев, Польща, 02000</a>
+                    </div>
+                  </div>
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Номер телефона:</p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="tel:380443511999" class="footer__email-text">+38 (044) 351 19
+                        99</a> <br>
+                      <a href="tel:380673864474" class="footer__email-text">+38 (067) 386 44 74</a>
+                    </div>
+                  </div>
+                  <div class="footer__info-item">
+                    <div class="footer__email">
+                      <p class="footer__email-title">Почта:</p>
+                    </div>
+                    <div class="footer__email-info">
+                      <a href="mailto:info@ava-tech.com.ua" class="footer__email-text">info@ava-tech.com.ua</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xl-2 col-sm-6 col-lg-3">
-            <div class="footer__item countryitem ukraina__item">
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Адрес:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="#" class="footer__email-text">вул. Вацлава Гавела 4,
-                    Киев, Украина, 02000</a>
-                </div>
-              </div>
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Номер телефона:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="tel:380443511999" class="footer__email-text">+38 (044) 351 19 99</a> <br>
-                  <a href="tel:380673864474" class="footer__email-text">+38 (067) 386 44 74</a>
-                </div>
-              </div>
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Почта:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="mailto:info@ava-tech.com.ua" class="footer__email-text">info@ava-tech.com.ua</a>
-                </div>
-              </div>
-            </div>
-            <div class="footer__item countryitem germania__item">
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Адрес:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="#" class="footer__email-text">вул. Вацлава Гавела 4,
-                    Киев, Германия, 02000</a>
-                </div>
-              </div>
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Номер телефона:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="tel:380443511999" class="footer__email-text">+38 (044) 351 19
-                    99</a> <br>
-                  <a href="tel:380673864474" class="footer__email-text">+38 (067) 386 44 74</a>
-                </div>
-              </div>
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Почта:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="mailto:info@ava-tech.com.ua" class="footer__email-text">info@ava-tech.com.ua</a>
-                </div>
-              </div>
-            </div>
-            <div class="footer__item countryitem belarus__item">
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Адрес:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="#" class="footer__email-text">вул. Вацлава Гавела 4,
-                    Киев, Белорусь, 02000</a>
-                </div>
-              </div>
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Номер телефона:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="tel:380443511999" class="footer__email-text">+38 (044) 351 19
-                    99</a> <br>
-                  <a href="tel:380673864474" class="footer__email-text">+38 (067) 386 44 74</a>
-                </div>
-              </div>
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Почта:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="mailto:info@ava-tech.com.ua" class="footer__email-text">info@ava-tech.com.ua</a>
-                </div>
-              </div>
-            </div>
-            <div class="footer__item countryitem pol__item">
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Адрес:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="#" class="footer__email-text">вул. Вацлава Гавела 4,
-                    Киев, Польща, 02000</a>
-                </div>
-              </div>
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Номер телефона:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="tel:380443511999" class="footer__email-text">+38 (044) 351 19
-                    99</a> <br>
-                  <a href="tel:380673864474" class="footer__email-text">+38 (067) 386 44 74</a>
-                </div>
-              </div>
-              <div class="footer__info-item">
-                <div class="footer__email">
-                  <p class="footer__email-title">Почта:</p>
-                </div>
-                <div class="footer__email-info">
-                  <a href="mailto:info@ava-tech.com.ua" class="footer__email-text">info@ava-tech.com.ua</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-sm-6 col-lg-4">
+          <div class="col-xl-2 col-sm-6 col-lg-4">
             <div class="footer__item-right">
               <div class="footer__button">
                 <a href="#" class="footer__btn">Обратный звонок</a>
@@ -693,53 +845,54 @@
               <div class="footer__social">
                 <div class="footer__social-item">
                   <a href="#">
-                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.1316 17.8104L18.0109 15.0002L13.1316 12.1899V17.8104Z" fill="white" />
                       <path
-                        d="M16.2454 0.000488281H6.49545C3.32224 0.000488281 0.740723 2.582 0.740723 5.75521V15.5053C0.740723 18.6784 3.32224 21.2599 6.49545 21.2599H16.2456C19.4186 21.2599 22.0001 18.6784 22.0001 15.5053V5.75521C22.0001 2.582 19.4186 0.000488281 16.2454 0.000488281V0.000488281ZM20.7538 15.5053C20.7538 17.9911 18.7314 20.0136 16.2454 20.0136H6.49545C4.00946 20.0136 1.98704 17.9911 1.98704 15.5053V5.75521C1.98704 3.26923 4.00946 1.2468 6.49545 1.2468H16.2456C18.7314 1.2468 20.7538 3.26923 20.7538 5.75521V15.5053Z"
-                        fill="white" />
-                      <path
-                        d="M11.3696 4.81714C8.16427 4.81714 5.55664 7.42477 5.55664 10.6301C5.55664 13.8354 8.16427 16.443 11.3696 16.443C14.5749 16.443 17.1825 13.8354 17.1825 10.6301C17.1825 7.42477 14.5749 4.81714 11.3696 4.81714ZM11.3696 15.1967C8.85166 15.1967 6.80296 13.1482 6.80296 10.6301C6.80296 8.11216 8.85166 6.06345 11.3696 6.06345C13.8877 6.06345 15.9362 8.11216 15.9362 10.6301C15.9362 13.1482 13.8877 15.1967 11.3696 15.1967Z"
-                        fill="white" />
-                      <path
-                        d="M17.3222 2.75293C16.3749 2.75293 15.6045 3.52352 15.6045 4.47059C15.6045 5.41781 16.3749 6.18841 17.3222 6.18841C18.2694 6.18841 19.04 5.41781 19.04 4.47059C19.04 3.52336 18.2694 2.75293 17.3222 2.75293ZM17.3222 4.94193C17.0623 4.94193 16.8508 4.73043 16.8508 4.47059C16.8508 4.21059 17.0623 3.99925 17.3222 3.99925C17.5822 3.99925 17.7937 4.21059 17.7937 4.47059C17.7937 4.73043 17.5822 4.94193 17.3222 4.94193Z"
+                        d="M15 0C6.717 0 0 6.717 0 15C0 23.283 6.717 30 15 30C23.283 30 30 23.283 30 15C30 6.717 23.283 0 15 0ZM24.3727 15.0153C24.3727 15.0153 24.3727 18.0574 23.9868 19.5243C23.7705 20.3272 23.1374 20.9603 22.3345 21.1764C20.8676 21.5625 15 21.5625 15 21.5625C15 21.5625 9.14772 21.5625 7.66548 21.161C6.86256 20.945 6.22948 20.3117 6.01318 19.5087C5.62706 18.0574 5.62706 15 5.62706 15C5.62706 15 5.62706 11.9582 6.01318 10.4913C6.22925 9.68834 6.8779 9.03969 7.66548 8.82362C9.13239 8.4375 15 8.4375 15 8.4375C15 8.4375 20.8676 8.4375 22.3345 8.83896C23.1374 9.05502 23.7705 9.68834 23.9868 10.4913C24.3883 11.9582 24.3727 15.0153 24.3727 15.0153Z"
                         fill="white" />
                     </svg>
                   </a>
                 </div>
                 <div class="footer__social-item">
                   <a href="#">
-                    <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
-                        d="M16.1787 8.26269L10.7129 5.27204C10.3987 5.10009 10.0272 5.1065 9.71914 5.28903C9.4109 5.47175 9.22705 5.79452 9.22705 6.15278V12.0827C9.22705 12.4393 9.40977 12.7615 9.71593 12.9444C9.8758 13.0399 10.053 13.0879 10.2307 13.0879C10.3934 13.0879 10.5565 13.0477 10.7065 12.9669L16.1725 10.0277C16.497 9.85315 16.6995 9.51584 16.701 9.1472C16.7023 8.77856 16.5023 8.43974 16.1787 8.26269ZM10.6769 11.3368V6.90478L14.7619 9.14003L10.6769 11.3368Z"
+                        d="M17.8711 15C17.8711 16.5857 16.5857 17.8711 15 17.8711C13.4143 17.8711 12.1289 16.5857 12.1289 15C12.1289 13.4143 13.4143 12.1289 15 12.1289C16.5857 12.1289 17.8711 13.4143 17.8711 15Z"
                         fill="white" />
                       <path
-                        d="M24.5586 4.42274L24.5575 4.41141C24.5366 4.21228 24.328 2.44099 23.4669 1.54006C22.4716 0.480384 21.3432 0.351652 20.8005 0.289929C20.7556 0.284833 20.7144 0.280114 20.6776 0.275206L20.6344 0.270676C17.3637 0.0328435 12.4241 0.000377512 12.3746 0.000188756L12.3703 0L12.366 0.000188756C12.3165 0.000377512 7.37696 0.0328435 4.07675 0.270676L4.03315 0.275206C3.99804 0.279925 3.95934 0.284266 3.91725 0.289174C3.38081 0.351086 2.2645 0.480006 1.26636 1.578C0.446219 2.4693 0.209141 4.20265 0.184792 4.39744L0.181961 4.42274C0.174599 4.5056 0 6.47829 0 8.45872V10.31C0 12.2905 0.174599 14.2631 0.181961 14.3462L0.183282 14.3587C0.204234 14.5546 0.41262 16.2934 1.26976 17.1947C2.20561 18.2189 3.38892 18.3544 4.02541 18.4273C4.12601 18.4388 4.21265 18.4486 4.27173 18.459L4.32893 18.4669C6.21743 18.6466 12.1385 18.7351 12.3896 18.7387L12.3971 18.7389L12.4047 18.7387C12.4541 18.7385 17.3935 18.7061 20.6642 18.4683L20.7075 18.4637C20.7488 18.4582 20.7952 18.4533 20.8462 18.4481C21.3796 18.3914 22.4899 18.2738 23.4742 17.1908C24.2944 16.2993 24.5317 14.5659 24.5558 14.3713L24.5586 14.346C24.566 14.263 24.7408 12.2905 24.7408 10.31V8.45872C24.7406 6.47829 24.566 4.50579 24.5586 4.42274ZM23.2908 10.31C23.2908 12.143 23.1307 14.0308 23.1156 14.2041C23.0541 14.6814 22.804 15.7781 22.4044 16.2124C21.7883 16.8903 21.1554 16.9574 20.6933 17.0063C20.6374 17.0122 20.5857 17.0178 20.5389 17.0237C17.3754 17.2525 12.6223 17.2876 12.4033 17.2889C12.1578 17.2853 6.32332 17.196 4.49239 17.026C4.39858 17.0107 4.29722 16.999 4.19038 16.9869C3.64846 16.9248 2.90665 16.8399 2.33623 16.2124L2.32283 16.1981C1.93022 15.789 1.68729 14.7635 1.62557 14.2097C1.61405 14.0787 1.44983 12.1687 1.44983 10.31V8.45872C1.44983 6.62778 1.60952 4.74211 1.625 4.56525C1.69843 4.00295 1.95325 2.97272 2.33623 2.55632C2.97121 1.85792 3.64072 1.78053 4.08354 1.72938C4.12583 1.72447 4.16528 1.71994 4.20171 1.71522C7.41131 1.48532 12.1985 1.45115 12.3703 1.44983C12.5421 1.45097 17.3276 1.48532 20.5087 1.71522C20.5478 1.72013 20.5904 1.72504 20.6363 1.73032C21.0918 1.78223 21.7802 1.86076 22.4119 2.53461L22.4178 2.54084C22.8104 2.94988 23.0533 3.99332 23.115 4.55826C23.126 4.6819 23.2908 6.59607 23.2908 8.45872V10.31Z"
+                        d="M21.7144 9.92039C21.5764 9.5464 21.3562 9.20789 21.0701 8.93002C20.7923 8.64392 20.454 8.42374 20.0797 8.28572C19.7762 8.16785 19.3203 8.02754 18.4805 7.98932C17.5721 7.94789 17.2997 7.93896 14.9999 7.93896C12.6999 7.93896 12.4275 7.94766 11.5193 7.98909C10.6796 8.02754 10.2234 8.16785 9.92014 8.28572C9.54591 8.42374 9.2074 8.64392 8.92976 8.93002C8.64366 9.20789 8.42348 9.54617 8.28523 9.92039C8.16736 10.2239 8.02705 10.6801 7.98883 11.5198C7.9474 12.428 7.93848 12.7004 7.93848 15.0004C7.93848 17.3002 7.9474 17.5726 7.98883 18.481C8.02705 19.3208 8.16736 19.7767 8.28523 20.0802C8.42348 20.4545 8.64343 20.7927 8.92953 21.0706C9.2074 21.3567 9.54568 21.5769 9.91991 21.7149C10.2234 21.833 10.6796 21.9733 11.5193 22.0115C12.4275 22.053 12.6997 22.0617 14.9997 22.0617C17.3 22.0617 17.5723 22.053 18.4803 22.0115C19.3201 21.9733 19.7762 21.833 20.0797 21.7149C20.8309 21.4251 21.4247 20.8314 21.7144 20.0802C21.8323 19.7767 21.9726 19.3208 22.011 18.481C22.0525 17.5726 22.0612 17.3002 22.0612 15.0004C22.0612 12.7004 22.0525 12.428 22.011 11.5198C21.9728 10.6801 21.8325 10.2239 21.7144 9.92039ZM14.9999 19.4231C12.5571 19.4231 10.5768 17.4431 10.5768 15.0002C10.5768 12.5573 12.5571 10.5773 14.9999 10.5773C17.4426 10.5773 19.4229 12.5573 19.4229 15.0002C19.4229 17.4431 17.4426 19.4231 14.9999 19.4231ZM19.5977 11.4361C19.0269 11.4361 18.5641 10.9733 18.5641 10.4024C18.5641 9.83159 19.0269 9.36879 19.5977 9.36879C20.1685 9.36879 20.6313 9.83159 20.6313 10.4024C20.6311 10.9733 20.1685 11.4361 19.5977 11.4361Z"
+                        fill="white" />
+                      <path
+                        d="M15 0C6.717 0 0 6.717 0 15C0 23.283 6.717 30 15 30C23.283 30 30 23.283 30 15C30 6.717 23.283 0 15 0ZM23.5613 18.5511C23.5197 19.468 23.3739 20.094 23.161 20.6419C22.7135 21.7989 21.7989 22.7135 20.6419 23.161C20.0942 23.3739 19.468 23.5194 18.5513 23.5613C17.6328 23.6032 17.3394 23.6133 15.0002 23.6133C12.6608 23.6133 12.3676 23.6032 11.4489 23.5613C10.5322 23.5194 9.90601 23.3739 9.35829 23.161C8.78334 22.9447 8.26286 22.6057 7.83257 22.1674C7.39449 21.7374 7.05551 21.2167 6.83922 20.6419C6.62636 20.0942 6.48056 19.468 6.4389 18.5513C6.39656 17.6326 6.38672 17.3392 6.38672 15C6.38672 12.6608 6.39656 12.3674 6.43867 11.4489C6.48033 10.532 6.6259 9.90601 6.83876 9.35806C7.05505 8.78334 7.39426 8.26263 7.83257 7.83257C8.26263 7.39426 8.78334 7.05528 9.35806 6.83899C9.90601 6.62613 10.532 6.48056 11.4489 6.43867C12.3674 6.39679 12.6608 6.38672 15 6.38672C17.3392 6.38672 17.6326 6.39679 18.5511 6.4389C19.468 6.48056 20.094 6.62613 20.6419 6.83876C21.2167 7.05505 21.7374 7.39426 22.1677 7.83257C22.6057 8.26286 22.9449 8.78334 23.161 9.35806C23.3741 9.90601 23.5197 10.532 23.5616 11.4489C23.6034 12.3674 23.6133 12.6608 23.6133 15C23.6133 17.3392 23.6034 17.6326 23.5613 18.5511Z"
                         fill="white" />
                     </svg>
                   </a>
                 </div>
                 <div class="footer__social-item">
                   <a href="#">
-                    <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
-                        d="M8.64758 24H4.69753C4.03774 24 3.50103 23.4778 3.50103 22.8358V14.1669H1.19649C0.53671 14.1669 0 13.6445 0 13.0027V9.28802C0 8.64606 0.53671 8.12384 1.19649 8.12384H3.50103V6.26367C3.50103 4.41925 4.09627 2.85004 5.2222 1.72595C6.3532 0.596741 7.93378 0 9.79307 0L12.8056 0.00476072C13.4642 0.00585938 14 0.528076 14 1.16895V4.61792C14 5.25989 13.4635 5.7821 12.8039 5.7821L10.7756 5.78284C10.157 5.78284 9.99952 5.9035 9.96583 5.94049C9.91032 6.00183 9.84426 6.17523 9.84426 6.65405V8.12366H12.6515C12.8628 8.12366 13.0675 8.17438 13.2435 8.26996C13.6231 8.47632 13.859 8.86652 13.859 9.28821L13.8575 13.0029C13.8575 13.6445 13.3208 14.1667 12.661 14.1667H9.84426V22.8358C9.84426 23.4778 9.30736 24 8.64758 24ZM4.94707 22.593H8.39804V13.537C8.39804 13.1083 8.75654 12.7597 9.1969 12.7597H12.4115L12.4128 9.53082H9.19671C8.75635 9.53082 8.39804 9.18219 8.39804 8.75354V6.65405C8.39804 6.10437 8.45544 5.47925 8.88187 5.0094C9.39713 4.44141 10.2092 4.37585 10.7752 4.37585L12.554 4.37512V1.41138L9.79195 1.40698C6.80391 1.40698 4.94707 3.26807 4.94707 6.26367V8.75354C4.94707 9.18201 4.58876 9.53082 4.1484 9.53082H1.44603V12.7597H4.1484C4.58876 12.7597 4.94707 13.1083 4.94707 13.537V22.593ZM12.8028 1.41174H12.8029H12.8028Z"
+                        d="M30 15C30 6.71484 23.2852 0 15 0C6.71484 0 0 6.71484 0 15C0 23.2852 6.71484 30 15 30C15.0879 30 15.1758 30 15.2637 29.9941V18.3223H12.041V14.5664H15.2637V11.8008C15.2637 8.5957 17.2207 6.84961 20.0801 6.84961C21.4512 6.84961 22.6289 6.94922 22.9688 6.99609V10.3477H21C19.4473 10.3477 19.1426 11.0859 19.1426 12.1699V14.5605H22.8633L22.377 18.3164H19.1426V29.4199C25.4121 27.6211 30 21.8496 30 15Z"
+                        fill="white" />
+                    </svg>
+                  </a>
+                </div>
+                <div class="footer__social-item">
+                  <a href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15 0C6.717 0 0 6.717 0 15C0 23.283 6.717 30 15 30C23.283 30 30 23.283 30 15C30 6.717 23.283 0 15 0ZM10.6412 22.6758H6.98799V11.6851H10.6412V22.6758ZM8.8147 10.1843H8.79089C7.565 10.1843 6.77216 9.34044 6.77216 8.28575C6.77216 7.20726 7.58926 6.38672 8.83896 6.38672C10.0887 6.38672 10.8577 7.20726 10.8815 8.28575C10.8815 9.34044 10.0887 10.1843 8.8147 10.1843ZM23.8138 22.6758H20.1611V16.796C20.1611 15.3184 19.6321 14.3106 18.3103 14.3106C17.3012 14.3106 16.7001 14.9904 16.436 15.6466C16.3394 15.8814 16.3158 16.2096 16.3158 16.5381V22.6758H12.6629C12.6629 22.6758 12.7107 12.7162 12.6629 11.6851H16.3158V13.2413C16.8013 12.4924 17.6699 11.4272 19.6081 11.4272C22.0116 11.4272 23.8138 12.998 23.8138 16.3737V22.6758Z"
                         fill="white" />
                     </svg>
                   </a>
                 </div>
               </div>
-              <div class="footer__butoon-up">
-                <a href="#"><svg width="46" height="46" viewBox="0 0 46 46" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M23 0C10.317 0 0 10.317 0 23C0 35.683 10.317 46 23 46C35.683 46 46 35.6812 46 23C46 10.3188 35.683 0 23 0ZM23 42.4369C12.2839 42.4369 3.56311 33.7179 3.56311 23C3.56311 12.2821 12.2839 3.56311 23 3.56311C33.7179 3.56311 42.4369 12.2821 42.4369 23C42.4369 33.7179 33.7161 42.4369 23 42.4369Z"
-                      fill="white" />
-                    <path
-                      d="M33.1726 25.4587L24.2648 16.5509C23.5699 15.8597 22.4476 15.8597 21.7527 16.5509L12.8449 25.4587C12.2731 26.125 12.2731 27.1103 12.8449 27.7765C13.4845 28.523 14.6104 28.6103 15.3569 27.9707L22.9999 20.3279L30.6606 27.9708C31.3554 28.662 32.4778 28.662 33.1726 27.9708C33.8639 27.2759 33.8639 26.1535 33.1726 25.4587Z"
-                      fill="white" />
-                  </svg>
-                </a>
-              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="copyright">
+              <p>Copyright Ava Tech 2021</p>
+              <p>Политика конфиденциальности</p>
             </div>
           </div>
         </div>
@@ -747,15 +900,281 @@
   </footer>
 </body>
 
-<script
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0O6gnQHzqog1ExFQ_Q5f_fxB5adh3EIg&callback=initMap&libraries=&v=weekly"
-  async></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApj8qSzyO4DqXeQtFQPKI4mi6p-MBwlpo&callback=initMap&libraries=&v=weekly"
+  async></script>
 <script src="js/index.js"></script>
+<script>
+  function initMap() {
+    var stylemap = [
+      {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#e9e9e9"
+          },
+          {
+            "lightness": 17
+          }
+        ]
+      },
+      {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#f5f5f5"
+          },
+          {
+            "lightness": 20
+          }
+        ]
+      },
+      {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": 17
+          }
+        ]
+      },
+      {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": 29
+          },
+          {
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": 18
+          }
+        ]
+      },
+      {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": 16
+          }
+        ]
+      },
+      {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#f5f5f5"
+          },
+          {
+            "lightness": 21
+          }
+        ]
+      },
+      {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#dedede"
+          },
+          {
+            "lightness": 21
+          }
+        ]
+      },
+      {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+          {
+            "visibility": "on"
+          },
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": 16
+          }
+        ]
+      },
+      {
+        "elementType": "labels.text.fill",
+        "stylers": [
+          {
+            "saturation": 36
+          },
+          {
+            "color": "#333333"
+          },
+          {
+            "lightness": 40
+          }
+        ]
+      },
+      {
+        "elementType": "labels.icon",
+        "stylers": [
+          {
+            "visibility": "off"
+          }
+        ]
+      },
+      {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#f2f2f2"
+          },
+          {
+            "lightness": 19
+          }
+        ]
+      },
+      {
+        "featureType": "administrative",
+        "elementType": "geometry.fill",
+        "stylers": [
+          {
+            "color": "#fefefe"
+          },
+          {
+            "lightness": 20
+          }
+        ]
+      },
+      {
+        "featureType": "administrative",
+        "elementType": "geometry.stroke",
+        "stylers": [
+          {
+            "color": "#fefefe"
+          },
+          {
+            "lightness": 17
+          },
+          {
+            "weight": 1.2
+          }
+        ]
+      }
+    ];
+    const myLatLng = {
+      lat: 30.3409626,
+      lng: -97.705467
+    };
+    const centerloc = {
+      lat: 30.2429626,
+      lng: -96.709467
+    };
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 3,
+      center: centerloc,
+      styles: stylemap,
+      disableDefaultUI: true,
+      gestureHandling: 'greedy'
+
+    });
+
+    var locations = [
+      ['Ucraine ', 30.3409626, -97.695467, 2],
+      ['Germaine ', 49.5434304, -95.0660967, 1],
+      ['Belarus ', 19.5434304, -75.0660967, 1],
+      ['Polsha ', 10.5434304, -67.0660967, 1],
+    ];
+    var infowindow = new google.maps.InfoWindow();
+    var marker, i;
+    const image = "images/mapmarker.svg";
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map,
+        icon: image
+      });
+
+      google.maps.event.addListener(marker, 'click', (function (marker, i) {
+        return function () {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+
+
+
+    function newLocation(newLat, newLng) {
+      map.setCenter({
+        lat: newLat,
+        lng: newLng,
+      });
+    }
+
+    $('.loc1').click(function () {
+      newLocation(30.3409626, -97.695467, 2);
+      map.setZoom(16);
+    });
+    $('.loc2').click(function () {
+      newLocation(49.5434304, -95.0660967, 1);
+      map.setZoom(16);
+    });
+    $('.loc3').click(function () {
+      newLocation(19.5434304, -75.0660967, 1);
+      map.setZoom(16);
+    });
+    $('.loc4').click(function () {
+      newLocation(10.5434304, -67.0660967, 1);
+      map.setZoom(16);
+    });
+
+    $('#myselect1').change(function () {
+      if ($(this).val() == '0') {
+        newLocation(30.3409626, -97.695467, 2);
+        map.setZoom(16);
+      };
+      if ($(this).val() == '1') {
+        newLocation(49.5434304, -95.0660967, 1);
+        map.setZoom(16);
+      };
+      if ($(this).val() == '2') {
+        newLocation(19.5434304, -75.0660967, 1);
+        map.setZoom(16);
+      };
+      if ($(this).val() == '3') {
+        newLocation(10.5434304, -67.0660967, 1);
+        map.setZoom(16);
+      };
+    });
+  }
+</script>
 
 </html>
