@@ -6,23 +6,42 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
-  $('.ua').click(function () {
+// $(document).ready(function () {
+//   $('.ua').click(function () {
+//     $('.countryitem').hide();
+//     $('.ukraina__item').show();
+//   });
+//   $('.gr').click(function () {
+//     $('.countryitem').hide();
+//     $('.germania__item').show();
+//   });
+//   $('.bl').click(function () {
+//     $('.countryitem').hide();
+//     $('.belarus__item').show();
+//   });
+//   $('.pl').click(function () {
+//     $('.countryitem').hide();
+//     $('.pol__item').show();
+//   });
+// });
+
+$(myselect2).change(function () {
+  if ($(this).val() == 'ua') {
     $('.countryitem').hide();
-    $('.ukraina__item').show();
-  });
-  $('.gr').click(function () {
+    $('#ua').show();
+  };
+  if ($(this).val() == 'pl') {
     $('.countryitem').hide();
-    $('.germania__item').show();
-  });
-  $('.bl').click(function () {
+    $('#pl').show();
+  };
+  if ($(this).val() == 'bl') {
     $('.countryitem').hide();
-    $('.belarus__item').show();
-  });
-  $('.pl').click(function () {
+    $('#bl').show();
+  };
+  if ($(this).val() == 'gr') {
     $('.countryitem').hide();
-    $('.pol__item').show();
-  });
+    $('#gr').show();
+  };
 });
 
 var swiper = new Swiper(".mySwiper", {
@@ -57,6 +76,9 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
   $('.swiper__info-btn').click(function () {
-    $('.swiper__info').toggleClass("open__info");
+    $('.swiper__info-text').toggleClass("open__info");
   });
 });
+
+$('.js-select').select2();
+$('.select').select2();
