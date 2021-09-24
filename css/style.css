@@ -1048,6 +1048,9 @@ body{
   }
 }
 @media (max-width: 1200px) {
+  .main__header h2{
+    font-size: 30px;
+  }
   .bgraund__inner-right{
     padding-top: 108px;
   }
@@ -1151,6 +1154,9 @@ body{
   }
 }
 @media (max-width: 991px) {
+  .main__header h2{
+    font-size: 26px;
+  }
   .contact__info-item::after{
     max-width: 100%;
   }
@@ -1386,6 +1392,12 @@ body{
   }
 }
 @media (max-width: 568px) {
+  .products__item button{
+    font-size: 20px;
+  }
+  .main__header h2{
+    font-size: 20px;
+  }
   .footer__item.countryitem{
     max-width: 100%;
   }
@@ -1450,6 +1462,12 @@ body{
   }
 }
 @media (max-width: 360px) {
+  .products__item button{
+    font-size: 18px;
+  }
+  .main__header h2{
+    font-size: 18px;
+  }
   .header__list {
     margin-top: 20px;
   }
@@ -1567,7 +1585,4 @@ body{
 }
 footer .select2{
   width: 100% !important;
-}
-footer .select2-dropdown {
-
 }
