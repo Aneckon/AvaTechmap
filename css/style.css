@@ -1154,6 +1154,12 @@ body{
   }
 }
 @media (max-width: 991px) {
+  .footer__item.countryitem::after{
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
   .footer__inner-georgafi {
     flex-direction: column;
     margin: 0 100px;
@@ -1175,7 +1181,7 @@ body{
     margin: 0 auto;
   }
   .footer__social{
-    justify-content: center;
+    justify-content: space-between;
   }
   .footer__item-right{
     text-align: center;
@@ -1264,9 +1270,6 @@ body{
     max-width: 255px;
     margin: 10px auto;
   } 
-  .products__fillter{
-    flex-direction: column;
-  }
   .products__fillter-item{
     max-width: 100%;
     margin-bottom: 10px;
@@ -1425,6 +1428,43 @@ body{
   }
 }
 @media (max-width: 568px) {
+  .products__fillter{
+    flex-direction: column;
+  }
+  .select2-container .select2-selection--single .select2-selection__rendered{
+    font-size: 14px;
+  }
+  .footer__btn{
+    font-size: 14px;
+  }
+  .footer__button{
+    height: 45px;
+  }
+  .contact__info-item{
+    padding: 20px 0;
+  }
+  .contact__info-subtext p{
+    font-size: 14px;
+  }
+  .products__fillter-title{
+    height: 46px;
+  }
+  .contact__info-title p{
+    font-size: 16px;
+  }
+  .products__fillter-title::after{
+    top: 18px;
+    max-width: 15px;
+  }
+  .select2-container .select2-selection--single{
+    height: 46px !important;
+  }
+  .footer__item.countryitem{
+    padding-top: 0;
+  }
+  .footer__info-item{
+    padding-bottom: 20px;
+  }
   .footer__inner-georgafi {
     margin: 0 50px;
   }
@@ -1475,7 +1515,7 @@ body{
   }
   .footer__social-item {
     padding-left: 0;
-    padding-right: 32px;
+    padding-right: 0;
   }
   .header__title {
     font-size: 32px;
@@ -1485,6 +1525,45 @@ body{
   }
 }
 @media (max-width: 420px) {
+  .contact__inner{
+    padding-top: 50px;
+  }
+  .products__fillter{
+    padding-top: 20px;
+  }
+  .select2-container .select2-selection--single .select2-selection__rendered{
+    font-size: 12px;
+  }
+  .products__inner{
+    margin-top: 20px;
+  }
+  .products__button{
+    margin-top: 20px;
+  }
+  .main__header{
+    margin-top: 20px;
+  }
+  .contact__info-subtext{
+    padding-bottom: 20px;
+  }
+  .contact__info-item{
+    padding: 10px 0;
+  }
+  .contact__info-title p{
+    font-size: 14px;
+  }
+  .footer__email-title{
+    font-size: 14px;
+  }
+  .footer__email-title span{
+    font-size: 14px;
+  }
+  .footer__email-text{
+    font-size: 14px;
+  }
+  .footer__link{
+    font-size: 14px;
+  }
   .footer__inner-georgafi{
     margin: 0;
   }
@@ -1515,7 +1594,7 @@ body{
     margin: 0;
   }
   .products__item button{
-    font-size: 18px;
+    font-size: 16px;
   }
   .main__header h2{
     font-size: 18px;
